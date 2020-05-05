@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class exercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+        Scanner leitor = new Scanner (System.in);
+		
+		int x;
+		
+		System.out.println("Digite um número e veja se o mesmo eh positivo ou negativo:");
+		x = leitor.nextInt(); 
+		
+		if (x > 0) 
+	    System.out.println("Número "+x+" eh positivo.");
+		if (x==0)
+		System.out.println("Número "+x+" eh neutro.");
+		if (x<0)
+		System.out.println("Número "+x+" eh negativo.");	
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+public class exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner leitor = new Scanner (System.in);
+		
+		int x;
+		
+		System.out.println("Digite um número e veja se o mesmo eh maior que 20:");
+		x = leitor.nextInt(); 
+		
+		if (x > 20) 
+	    System.out.println(""+x+" eh maior que 20");
+		if (x==20)
+		System.out.println("20 eh igual a 20");
+		if (x<20)
+		System.out.println(""+x+" eh menor que 20");	
+	}
+
+}

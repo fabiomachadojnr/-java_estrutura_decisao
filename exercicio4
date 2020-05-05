@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class exercicio4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leitor = new Scanner(System.in);
+		
+		int x,y;
+		
+		System.out.println("Digite o primeiro número:");
+		x=leitor.nextInt();
+		System.out.println("Digite o segundo número:");
+		y=leitor.nextInt();
+		
+		if (x>y)
+		System.out.println("Os numeros em ordem decrescente na seguinte ordem: "+x+","+y);
+		if (y>x)
+		System.out.println("Os numeros em ordem decrescente na seguinte ordem: "+y+","+x);		
+	}
+}

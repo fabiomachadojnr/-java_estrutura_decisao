@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class exercicio6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner leitor = new Scanner (System.in);
+		
+		float x, y, z;
+		
+		System.out.println(" Digite a nota da primeira prova:");
+		x = leitor.nextFloat();
+		System.out.println(" Digite a nota da segunda prova:");
+		y = leitor.nextFloat();
+		System.out.println(" Digite a nota da terceira prova:");
+		z = leitor.nextFloat();
+		
+		System.out.println("Sua media eh "+(x+y+z)/3);
+		
+		if ((x+y+z)/3 >= 7)
+			System.out.println("Vocę esta aprovado");
+		if ((x+y+z)/3 < 7)
+			System.out.println("Vocę esta reprovado");		
+	}
+}
